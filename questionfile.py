@@ -32,4 +32,5 @@ def count_legs():
     return legs_sum
 
 
-print("Number of legs is: {}".format(count_legs()))
+print("Number of legs is {}".format(count_legs()))
+
