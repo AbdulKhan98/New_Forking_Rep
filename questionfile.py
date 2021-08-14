@@ -1,8 +1,11 @@
 #In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
 
-#chickens = 2 legs
-#cows = 4 legs
-#dogs = 4 legs
+def animal_legs(animals = ()):
+	count_animal = int(()legs)
+
+animals_legs(chickens = 2 legs)
+animals_legs(cows = 4 legs)
+animals_legs(dogs = 4 legs)
 
 #The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a script or function that returns the total number of legs of all the animals.
 
