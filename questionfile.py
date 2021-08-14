@@ -19,3 +19,17 @@
 #50 legs
 
 #Create a python script to solve this problem.
+
+chicken = int(input("Enter number of chickens: "))
+cow = int(input("Enter number of cows: "))
+dog = int(input("Enter number of dogs: "))
+
+def count_legs():
+    chicken_legs = chicken * 2
+    cow_legs = cow * 4
+    dog_legs = dog * 4
+    legs_sum = chicken_legs + cow_legs + dog_legs
+    return legs_sum
+
+
+print("Number of legs is: {}".format(count_legs()))
